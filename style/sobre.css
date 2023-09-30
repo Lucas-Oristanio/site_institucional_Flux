@@ -23,7 +23,7 @@ body{
 .img img{
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+   /* opacity: 0.5; */
     box-shadow: 4px 0px 9px #000000;
 }
 

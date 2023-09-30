@@ -76,59 +76,5 @@ body{
     background-color: #c9c9c9a8;
 }
 
-.container-login{
-    width: 25%;
-    height: 60%;
-    border: solid 2px black;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-}
-.titulo-login{
-    font-size: 26px;
-}
 
-.container-login .user{
-    height: 70px;
-}
-.container-login .senha{
-    height: 30px;
-}
-
-.container-login .botao{
-    height: 60px;
-}
-
-.user{
-    display: flex;
-    align-items: flex-end;
-}
-input{
-    height: 40px;
-    width: 300px;
-    font-size: 26px;
-    border: none;
-    border-bottom: solid 1px black;
-    outline: none;
-    background-color: transparent;
-}
-
-.botao{
-    display: flex;
-    align-items: flex-start;
-}
-
-button{
-    height: 50px;
-    width: 300px;
-    background-color: #1A3850;
-    border: none;
-    margin-top: -30px;
-    font-size: 30px;
-    font-family: monospace;
-    font-weight: 800;
-    color: #fff;
-    border-radius: 20px;
-}
 

@@ -51,18 +51,21 @@ body{
     margin-bottom: 20px;
     border-bottom: solid 1px #fff;
     width: 67%;
+    text-shadow: 2px 2px 11px #000000;
 }
 .descSobre{
     width: 70%;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif, monospace;
     word-spacing: 5px;
+    text-shadow: 2px 2px 11px #000000;
 }
 .cont .tit-val{
     font-size: 42px;
     margin-bottom: 20px;
     border-bottom: solid 1px #fff;
     width: 67%;
+    text-shadow: 2px 2px 11px #000000;
 }
 .cont .card-val{
     width: 70%;
@@ -87,10 +90,13 @@ body{
     border-radius: 50%;
     padding: 7px;
     color: #fff;
+    -webkit-filter: drop-shadow(5px 5px 5px #000000);
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .card p{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif, monospace;
     word-spacing: 5px;
+    text-shadow: 2px 2px 11px #000000;
 }

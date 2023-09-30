@@ -1,0 +1,96 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-sobre{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    background-color: #1A3850;
+}
+.img{
+    width: 30%;
+    height: 100%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    box-shadow: 4px 0px 9px #000000;
+}
+
+.conteudo{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    margin-left: 100px;
+}
+.cont .divCont{
+    width: 100%;
+}
+.cont .tit-sobre{
+    font-size: 50px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #fff;
+    width: 67%;
+}
+.descSobre{
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif, monospace;
+    word-spacing: 5px;
+}
+.cont .tit-val{
+    font-size: 42px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #fff;
+    width: 67%;
+}
+.cont .card-val{
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+.cont .card-val .card{
+    width: 150px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.card img{
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+}
+
+.card p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif, monospace;
+    word-spacing: 5px;
+}
